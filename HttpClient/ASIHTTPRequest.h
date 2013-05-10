@@ -695,10 +695,10 @@ extern unsigned long const ASIWWANBandwidthThrottleAmount;
 
 @property (retain,setter=setURL:) NSURL *url;
 @property (retain) NSURL *originalURL;
-@property (assign) id delegate;
-@property (assign) id queue;
-@property (assign) id uploadProgressDelegate;
-@property (assign) id downloadProgressDelegate;
+@property (nonatomic,assign) id delegate;
+@property (nonatomic,assign) id queue;
+@property (nonatomic,assign) id uploadProgressDelegate;
+@property (nonatomic,assign) id downloadProgressDelegate;
 @property (assign) BOOL useKeychainPersistence;
 @property (assign) BOOL useSessionPersistence;
 @property (retain) NSString *downloadDestinationPath;

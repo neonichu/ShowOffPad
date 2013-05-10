@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 45;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -30,7 +30,6 @@
 		31CE77E21199A3FE006C68D9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31CE77E11199A3FE006C68D9 /* CFNetwork.framework */; };
 		31CE77E61199A406006C68D9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31CE77E51199A406006C68D9 /* SystemConfiguration.framework */; };
 		31CE77EA1199A40D006C68D9 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31CE77E91199A40D006C68D9 /* MobileCoreServices.framework */; };
-		31CE77EE1199A412006C68D9 /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 31CE77ED1199A412006C68D9 /* libz.1.2.3.dylib */; };
 		31CE77F11199A446006C68D9 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 31CE77F01199A446006C68D9 /* Reachability.m */; };
 		31CE792D1199BD35006C68D9 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31CE792C1199BD35006C68D9 /* MainWindow.xib */; };
 		777DDB7112D11DD300AF4026 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 777DDB4012D11DD300AF4026 /* LICENSE */; };
@@ -38,6 +37,7 @@
 		777DDB7312D11DD300AF4026 /* MongooseDaemon.m in Sources */ = {isa = PBXBuildFile; fileRef = 777DDB4412D11DD300AF4026 /* MongooseDaemon.m */; };
 		777DDB7412D11DD300AF4026 /* README.rdoc in Resources */ = {isa = PBXBuildFile; fileRef = 777DDB4512D11DD300AF4026 /* README.rdoc */; };
 		77E9258912CD858700DF73A1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77E9258812CD858700DF73A1 /* QuartzCore.framework */; };
+		86D7D0EA173D3CA800E2A2D1 /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 86D7D0E9173D3CA800E2A2D1 /* libz.1.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,7 +62,6 @@
 		31CE772711999BF6006C68D9 /* NewFormController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewFormController.xib; sourceTree = "<group>"; };
 		31CE773011999D50006C68D9 /* NewFormController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewFormController.h; sourceTree = "<group>"; };
 		31CE773111999D50006C68D9 /* NewFormController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewFormController.m; sourceTree = "<group>"; };
-		31CE779C1199A2EC006C68D9 /* HTTPRiot.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HTTPRiot.framework; path = "/Users/schacon/Downloads/httpriot-0.6.10/HTTPRiot.framework"; sourceTree = "<absolute>"; };
 		31CE77C01199A3CA006C68D9 /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
 		31CE77C11199A3CA006C68D9 /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
 		31CE77C21199A3CA006C68D9 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
@@ -81,7 +80,6 @@
 		31CE77E11199A3FE006C68D9 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		31CE77E51199A406006C68D9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		31CE77E91199A40D006C68D9 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		31CE77ED1199A412006C68D9 /* libz.1.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.3.dylib; path = usr/lib/libz.1.2.3.dylib; sourceTree = SDKROOT; };
 		31CE77EF1199A446006C68D9 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		31CE77F01199A446006C68D9 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		31CE792C1199BD35006C68D9 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
@@ -93,6 +91,7 @@
 		777DDB4412D11DD300AF4026 /* MongooseDaemon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MongooseDaemon.m; sourceTree = "<group>"; };
 		777DDB4512D11DD300AF4026 /* README.rdoc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.rdoc; sourceTree = "<group>"; };
 		77E9258812CD858700DF73A1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		86D7D0E9173D3CA800E2A2D1 /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = usr/lib/libz.1.dylib; sourceTree = SDKROOT; };
 		8D1107310486CEB800E47090 /* ShowOffPad-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ShowOffPad-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,13 +100,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86D7D0EA173D3CA800E2A2D1 /* libz.1.dylib in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
 				31CE77E21199A3FE006C68D9 /* CFNetwork.framework in Frameworks */,
 				31CE77E61199A406006C68D9 /* SystemConfiguration.framework in Frameworks */,
 				31CE77EA1199A40D006C68D9 /* MobileCoreServices.framework in Frameworks */,
-				31CE77EE1199A412006C68D9 /* libz.1.2.3.dylib in Frameworks */,
 				77E9258912CD858700DF73A1 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,12 +151,11 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
-				31CE779C1199A2EC006C68D9 /* HTTPRiot.framework */,
 				31CE77E11199A3FE006C68D9 /* CFNetwork.framework */,
 				31CE77E51199A406006C68D9 /* SystemConfiguration.framework */,
 				31CE77E91199A40D006C68D9 /* MobileCoreServices.framework */,
-				31CE77ED1199A412006C68D9 /* libz.1.2.3.dylib */,
 				77E9258812CD858700DF73A1 /* QuartzCore.framework */,
+				86D7D0E9173D3CA800E2A2D1 /* libz.1.dylib */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -256,8 +254,11 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ShowOffPad" */;
-			compatibilityVersion = "Xcode 3.1";
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
@@ -324,10 +325,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../../Downloads/httpriot-0.6.10\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -344,10 +342,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../../Downloads/httpriot-0.6.10\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ShowOffPad_Prefix.pch;
 				INFOPLIST_FILE = "ShowOffPad-Info.plist";
@@ -365,8 +360,7 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				PREBINDING = NO;
-				SDKROOT = iphoneos3.2;
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
@@ -381,8 +375,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PREBINDING = NO;
-				SDKROOT = iphoneos3.2;
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;

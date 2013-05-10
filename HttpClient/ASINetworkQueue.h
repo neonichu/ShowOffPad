@@ -88,8 +88,8 @@
 - (BOOL)isNetworkActive;
 
 
-@property (assign,setter=setUploadProgressDelegate:) id uploadProgressDelegate;
-@property (assign,setter=setDownloadProgressDelegate:) id downloadProgressDelegate;
+@property (nonatomic,assign,setter=setUploadProgressDelegate:) id uploadProgressDelegate;
+@property (nonatomic,assign,setter=setDownloadProgressDelegate:) id downloadProgressDelegate;
 
 @property (assign) SEL requestDidStartSelector;
 @property (assign) SEL requestDidReceiveResponseHeadersSelector;

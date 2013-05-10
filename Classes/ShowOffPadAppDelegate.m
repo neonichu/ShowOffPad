@@ -23,8 +23,6 @@
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(screenDidDisconnect:) name:UIScreenDidDisconnectNotification object:nil];
 	//Code to detect if an external display is connected to the iPad.
 	NSLog(@"Number of screens: %d", [[UIScreen screens]count]);
-
-	NSString *presoPath = [self ensurePresoPath];
 		
 	self.viewController = [[[ShowOffPadViewController alloc] 
 					  initWithNibName:@"ShowOffPadViewController" 
